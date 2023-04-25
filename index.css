@@ -19,6 +19,7 @@ display: nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la 
     justify-content: space-between; /*Permite distribuir los elementos hijos del contenedor a lo largo del eje principal con un espacio igual entre ellos*/
     width: 1800px;
     height: 100px;
+    color: white;
 }
 
 /*main*/
@@ -26,6 +27,8 @@ main {
     padding: 20px;
     margin: 0px 20px;
     position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 
 .button {
@@ -41,17 +44,21 @@ main {
 .divBlanco {
     width: 250px;
     margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*DIV parte izquierda (avatar grupal)*/
-
-
+.avatarImg {
+    width: 400px;
+    height: 400px;
+}
 
 /*Div parte derecha (informacion principal)*/
 .Contact-info {
     color: #FF7F99;
     font-size: 48px;
-    margin: 0px;
+    margin: 20px;
 }
 
 /*Especialistas informaticos*/
@@ -77,13 +84,13 @@ main {
 
 footer {
     padding: 40px;
-    margin-top: 200px;
+    margin-top: 300px;
     background-color: #FF7F99;
     width: 1720px;
     height: 450px;
     display: flex;
     justify-content: space-around;
-}d
+}
 
 .dev {
     width: 277px;
