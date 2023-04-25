@@ -29,7 +29,7 @@ main {
 }
 
 .button {
-    border: none;
+    border: none; 
     margin: 10px;
     font-size: 18px;
     color: white;
@@ -44,6 +44,8 @@ main {
 }
 
 /*DIV parte izquierda (avatar grupal)*/
+
+
 
 /*Div parte derecha (informacion principal)*/
 .Contact-info {
@@ -74,22 +76,30 @@ main {
 /*CSS para footer*/
 
 footer {
-    margin-top: 30px;
+    padding: 40px;
+    margin-top: 200px;
     background-color: #FF7F99;
-    width: 1800px;
-    height: 500px;
+    width: 1720px;
+    height: 450px;
     display: flex;
-}
+    justify-content: space-around;
+}d
 
 .dev {
     width: 277px;
 }
 
+p {
+    margin-left: 55px; /*esto seguro que hay otra forma de hacerlo mejor*/
+}
+
 .name {
     color: white;
+    margin-left: 100px; /*esto seguro que hay otra forma de hacerlo mejor*/
 }
 
 .Linkedin {
+    margin-left: 110px; /*esto seguro que hay otra forma de hacerlo mejor*/
     padding: 10px;
     width: 45px;
 }
