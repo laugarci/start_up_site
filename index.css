@@ -19,10 +19,27 @@ display: nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la 
     justify-content: space-between; /*Permite distribuir los elementos hijos del contenedor a lo largo del eje principal con un espacio igual entre ellos*/
     width: 1800px;
     height: 100px;
+}
+
+.title {
+    border: none;
+    margin: 30px;
+    margin-left: 40px;
     color: white;
 }
 
+.button {
+    border: none; 
+    margin: 35px;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    background-color: #FF7F99;
+}
+
+
 /*main*/
+/*CSS para el recuadro blanco*/
 main {
     padding: 20px;
     margin: 0px 20px;
@@ -31,34 +48,20 @@ main {
     justify-content: space-around;
 }
 
-.button {
-    border: none; 
-    margin: 10px;
-    font-size: 18px;
-    color: white;
-    justify-content: center;
-    background-color: #FF7F99;
-}
-
-/*CSS para el recuadro blanco*/
-.divBlanco {
-    width: 250px;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
 /*DIV parte izquierda (avatar grupal)*/
 .avatarImg {
-    width: 400px;
-    height: 400px;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
 }
 
 /*Div parte derecha (informacion principal)*/
 .Contact-info {
     color: #FF7F99;
     font-size: 48px;
-    margin: 20px;
+    margin-top: 30px;
+    margin-right: 70px;
+    padding: 10px;
 }
 
 /*Especialistas informaticos*/
@@ -73,18 +76,18 @@ main {
     background-color: #FFCA41;
     margin-top: 20px;
     border: none;
-    width: 130px;
-    height: 40px;
+    width: 180px;
+    height: 60px;
     border-radius: 30px;
     color: white;
     font-size: 17px;
+    font-weight: bold;
 }
 
 /*CSS para footer*/
-
 footer {
     padding: 40px;
-    margin-top: 300px;
+    margin-top: 100px;
     background-color: #FF7F99;
     width: 1720px;
     height: 450px;
