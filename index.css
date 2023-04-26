@@ -93,6 +93,7 @@ footer {
     height: 450px;
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 .dev {
