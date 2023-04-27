@@ -15,7 +15,7 @@ display: nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la 
 /*Header de la pagina*/
 .header {
     background-color: #FF7F99;
-    display: flex; /*crea un contenedor flexible que organiza los elementos hijos de manera eficiente en el eje principal y transversal*/
+    display: flex; /*crea un contenedor flexible que organizada los elementos hijos de manera eficiente en el eje principal y transversal*/
     justify-content: space-between; /*Permite distribuir los elementos hijos del contenedor a lo largo del eje principal con un espacio igual entre ellos*/
     width: 1800px;
     height: 100px;
@@ -47,13 +47,6 @@ main {
     display: flex;
     justify-content: space-around;
 }
-
-/*DIV parte izquierda (avatar grupal)*/
-/*.avatarImg {
-    margin-top: 50px;
-    width: 500px;
-    height: 500px;
-}*/
 
 .avatarImg {
     background-color: #ff7f99;
