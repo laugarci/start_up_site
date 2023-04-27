@@ -48,30 +48,47 @@ main {
     justify-content: space-around;
 }
 
+
 .avatarImg {
     background-color: #ff7f99;
     border-radius: 272px 0 272px 272px;
-    margin: 40px 0;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 10px 50x;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 37px 150px;
-}
-
+    margin-left: 100px;
+  }
+  
 /*Div parte derecha (informacion principal)*/
 .Contact-info {
     color: #FF7F99;
     font-size: 48px;
-    margin-top: 30px;
     margin-right: 70px;
-    padding: 10px;
+    padding: 0px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: justify;
 }
 
 /*Especialistas informaticos*/
 .information {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px;
     color: black
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 300px;
+}
+
+.LinkedinPrin {
+    width: 45px;
 }
 
 /*Te llamamos*/
@@ -104,7 +121,7 @@ footer {
 }
 
 p {
-    margin-left: 55px; 
+    margin-left: 55px;
 }
 
 .name {
