@@ -1,15 +1,10 @@
-/*
-Margin: establece el margen para los cuatro lados
-Padding: propiedad o relleno que se crea alrededor del contenido
-background-color: color de fondo
-display: nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la pantalla
-*/
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
 
 /*Para toda la pagina*/
 * {
     margin: 0px;
-    padding: 0px;
-    font-family: 'Arial';
+    font-family: 'Jost';
 }
 
 /*Header de la pagina*/
@@ -17,8 +12,11 @@ display: nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la 
     background-color: #FF7F99;
     display: flex; /*crea un contenedor flexible que organizada los elementos hijos de manera eficiente en el eje principal y transversal*/
     justify-content: space-between; /*Permite distribuir los elementos hijos del contenedor a lo largo del eje principal con un espacio igual entre ellos*/
-    width: 1800px;
+   /* width: 1800px;*/
     height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
 }
 
 .title {
@@ -36,7 +34,6 @@ display: nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la 
     justify-content: center;
     background-color: #FF7F99;
 }
-
 
 /*main*/
 /*CSS para el recuadro blanco*/
@@ -61,7 +58,15 @@ main {
     margin-left: 100px;
   }
   
+  
 /*Div parte derecha (informacion principal)*/
+
+h2 {
+    font-size: 96px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #FF7F99;
+}
 .Contact-info {
     color: #FF7F99;
     font-size: 48px;
@@ -73,6 +78,11 @@ main {
 }
 
 /*Especialistas informaticos*/
+
+.especialistas {
+    margin-top: 30px;
+    margin-left: 10px;
+}
 .information {
     font-size: 20px;
     margin: 0px;
@@ -87,9 +97,15 @@ main {
     margin-right: 300px;
 }
 
+.personalContact {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .LinkedinPrin {
     width: 45px;
 }
+
 
 /*Te llamamos*/
 .contact {
@@ -106,17 +122,13 @@ main {
 
 /*CSS para footer*/
 footer {
-    padding: 40px;
-    margin-top: 100px;
     background-color: #FF7F99;
-    width: 1720px;
-    height: 450px;
     display: flex;
     justify-content: space-around;
-    position: relative;
 }
 
 .dev {
+    margin-top: 20px;
     width: 277px;
 }
 
