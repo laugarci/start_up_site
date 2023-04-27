@@ -49,10 +49,20 @@ main {
 }
 
 /*DIV parte izquierda (avatar grupal)*/
-.avatarImg {
+/*.avatarImg {
     margin-top: 50px;
     width: 500px;
     height: 500px;
+}*/
+
+.avatarImg {
+    background-color: #ff7f99;
+    border-radius: 272px 0 272px 272px;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 37px 150px;
 }
 
 /*Div parte derecha (informacion principal)*/
