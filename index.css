@@ -6,7 +6,6 @@
     margin: 0px;
     font-family: 'Jost';
 }
-
 /*Header de la pagina*/
 .header {
     background-color: #FF7F99;
@@ -24,6 +23,7 @@
     margin: 30px;
     margin-left: 40px;
     color: white;
+    text-decoration: none;
 }
 
 .button {
@@ -34,6 +34,24 @@
     justify-content: center;
     background-color: #FF7F99;
 }
+
+.buttonContact {
+    background-color: transparent;
+    border: #FFCA41 2px solid;
+    font-size: 20px;
+    color: white;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+.buttonContact:hover {
+    background-color: #FFCA41;
+}
+
+.button:hover {
+    background-color: #FFCA41;
+}
+
 
 /*main*/
 /*CSS para el recuadro blanco*/
@@ -57,7 +75,6 @@ main {
     align-items: center;
     margin-left: 100px;
   }
-  
   
 /*Div parte derecha (informacion principal)*/
 
