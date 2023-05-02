@@ -4,45 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Union con la pagina de css -->
     <link rel="stylesheet" href="index.css">
-    <title>Laura</title>
+    <!-- Titulo que se vera en la barra de navegacion -->
+    <title>StartUp Site</title>
 </head>
 <body>
     <header class="header">
-    <a href="index.html"><h1 class="title">WomenInTech</h1></a>
+    <!-- titulo principal -->
+    <h1 class="title">WomenInTech</h1>
+    <!-- <Nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación -->
     <nav>
+        <!-- Botones de la barra superior -->
         <button class="button">Somos</button>
         <button class="button">Equipo</button>
-        <button href="form.html" class="button" id="buttonContact">Contáctanos</button>
+        <button href="form.html" class="buttonContact" id="buttonContact">Contáctanos</button>
+        <!-- id define un identificador único el cual no debe repetirse en todo el documento. Identifica el elemento al vincularlo con hojas de estilo -->
     </nav>
     </header>
+    <!-- <main> representa el contenido principal del <body>  -->
     <main>
-        <div class="avatar">
-            <img class="avatarImg" src="./img/principal.svg" alt="Laura Garcia">
-        </div>
-        <div class="Contact-info">
-            <h2>Laura</h2>
-            <h2>Garcia</h2>
-            <div class="especialistas">
-            <p class="information">Especialista en back-end</p>
-            <p class="text">Desarrolladora back-end con conocimientos en front-end. Me especializo en el procesamiento de datos y construcción de servidores, pero también tengo habilidades en la creación de interfaces de usuario y la implementación de diseños web. Esta combinación de habilidades me permite tener una visión completa del desarrollo de aplicaciones web, lo que me hace un recurso valioso en cualquier equipo de desarrollo.</p>
-            </div>
-            <div class="PersonalContact">
-                <a href="https://www.linkedin.com/in/laura-garcia-arch-4530a81ab/"><img class="LinkedinPrin" src="./img/linkedin.png" alt="Linkedin"></a>
-            <button class="contact">Te llamamos</button>
-        </div>
+    <div class="formulario">
+        <form action="" method="post">
+            <ul>
+             <li>
+               <label for="name">Nombre:</label>
+               <input type="text" id="name" name="user_name">
+             </li>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <input type="email" id="mail" name="user_mail">
+             </li>
+             <li>
+               <label for="msg">Mensaje:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+            </ul>
+           </form>
+        </div>           
     </main>
     <footer>
+        <!-- el footer representa un pie de página para el contenido de sección más cercano o el elemento raíz de sección -->
         <div>
-            <img class="dev" src="./img/Laura.svg" alt="Laura Garcia">
+            <a href="laura.html"><img class="dev" src="./img/Laura.svg" alt="Laura Garcia"></a>
             <p class="name">Laura Garcia</p>
             <p>Especialista en back-end</p>
             <a href="https://www.linkedin.com/in/laura-garcia-arch-4530a81ab/">
+                <!-- SRC indica el nombre del archivo de imagen -->
+                <!-- CLASS Las clases permiten a CSS y Javascript seleccionar y acceder a elementos específicos a través de los selectores de clase -->
+                <!-- ALT texto que se mostrará si la imagen no llega a cargar, mientras se carga o, cuando visualizando ya la imagen, pasamos el ratón por encima. -->
                 <img class="Linkedin" src="./img/linkedin.png" alt="Linkedin">
             </a>
         </div>
         <div>
-      
             <a href="milena.html"><img class="dev" src="./img/Milena.svg" alt="Milena Halas"></a>>
             <p class="name">Milena Halas</p>
             <p>Especialista en full-stack</p>

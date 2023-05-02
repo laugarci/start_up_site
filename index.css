@@ -9,8 +9,9 @@
 /*Header de la pagina*/
 .header {
     background-color: #FF7F99;
-    display: flex;
-    justify-content: space-between;
+    display: flex; /*crea un contenedor flexible que organizada los elementos hijos de manera eficiente en el eje principal y transversal*/
+    justify-content: space-between; /*Permite distribuir los elementos hijos del contenedor a lo largo del eje principal con un espacio igual entre ellos*/
+   /* width: 1800px;*/
     height: 100px;
     justify-content: space-between;
     align-items: center;
@@ -53,7 +54,7 @@
 
 
 /*main*/
-/*CSS para el main*/
+/*CSS para el recuadro blanco*/
 main {
     padding: 20px;
     margin: 0px 20px;
@@ -145,6 +146,9 @@ h2 {
     font-size: 17px;
     font-weight: bold;
 }
+
+/*Formulario*/
+
 
 /*CSS para footer*/
 footer {
