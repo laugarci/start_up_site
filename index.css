@@ -59,25 +59,29 @@ main {
 }
 
 .avatar {
-    height: 40rem;
-    background-color: #ff7f99; 
-    border-radius: 20rem 0 20rem 20rem;
-    margin-top: 2.5rem;
-    margin-left: 18.75rem;
-    padding: 1.875rem 2.5rem;
-    max-width: 40rem;
+    height: 590px;
+    background-color: #ff7f99;
+    border-radius: 273px 0 273px 273px;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 10px 50x;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    padding: 30px 70x;
     align-items: center;
+    margin-left: 100px;
     justify-content: center;
     display: flex;
   }
 
 
 .avatarImg {
-    height: 39.375rem;
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
-    margin-top: 0.625rem;
-    margin-bottom: 0.625rem;
+    height: 570px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h2 {
